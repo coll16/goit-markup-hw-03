@@ -12,8 +12,32 @@ body {
   list-style: none;
 }
 
+p, h1, h2, h3, h4, h5, h6, {
+  margin: 0;
+}
+
+ul {
+  padding-left: 0;
+  margin: 0;
+}
+
+img {
+  display: block;
+}
+                                               /*ПАДИНГИ!!!!!*/
+.container {
+  width: 1440px;
+  padding-left: 156px;
+  padding-right: 156px;
+  margin-right: 0 auto;
+  margin-left: 0 auto;
+}
+
+
 .header {
   font-style: normal;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .header-address {
