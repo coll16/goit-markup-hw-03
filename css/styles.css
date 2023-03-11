@@ -40,15 +40,22 @@ img {
   padding-bottom: 24px;
 }
 
-.header-address {
-  font-style: normal;
+.header-address-item{
   display: flex;
-  margin-right: auto;
+}
+
+.header-address {
+
+}
+
+.header-cont {
+  display: flex;
 }
 
 .nav {
   display: flex;
   align-items: center;
+margin-right: auto;
 }
 
 .logo {
@@ -60,6 +67,7 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  margin-right: 131px;
 }
 
 .studio {
@@ -74,6 +82,7 @@ img {
 
 .list {
   display: flex;
+  gap: 40px;
 }
 
 .header-link {
@@ -108,24 +117,43 @@ img {
   color: #404bbf;
 }
 
+.header-address {
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.02em;
+color: #434455;
+}
+
 .hero {
   background-color: #2e2f42;
+  margin: 0 auto;
+  padding-top: 188px;
+  padding-bottom: 292px;
 }
 .hero-tittle {
+  max-width: 496px;
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
-  text-align: center;
   color: #ffffff;
+  text-align: center;
+  margin: 0 auto;
 }
+
 .btn-hero {
   font-family:"Roboto",sans-serif;
+  display: block;
+  margin: 0 auto;
+  margin-top: 48px;
+  min-width: 169px;
+  height: 56px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  display: flex;
-  align-items: center;
   letter-spacing: 0.04em;
   cursor: pointer;
   color: #ffffff;
@@ -151,6 +179,16 @@ img {
   color: #2e2f42;
 }
 
+.strat-list {
+  gap: 24px;
+  justify-content: center;
+
+}
+
+.strat-list-item {
+  max-width: 264px;
+}
+
 .strat-p {
   font-weight: 400;
   font-size: 16px;
@@ -166,11 +204,21 @@ img {
 .what-tittle {
   font-weight: 700;
   font-size: 36px;
+  margin-bottom: 72px;
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
   text-transform: capitalize;
   color: #2e2f42;
+}
+
+.what-list {
+  gap: 24px;
+  justify-content: center;
+}
+
+.what-list-item {
+ 
 }
 
 .team {
@@ -182,9 +230,12 @@ img {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   border-radius: 0px 0px 4px 4px;
+  margin-bottom: 120px;
 }
 
 .team-tittle {
+  padding-top: 120px;
+  padding-bottom: 72px;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -194,7 +245,16 @@ img {
   color: #2e2f42;
 }
 
+.team-list {
+  justify-content: center;
+  gap: 24px;
+}
+
 .team-name {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -203,6 +263,10 @@ img {
 }
 
 .team-p {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -214,6 +278,7 @@ img {
   background-color: #2e2f42;
 }
 
+
 .studio-footer {
   font-weight: 800;
   font-size: 18px;
@@ -222,10 +287,16 @@ img {
 }
 
 .footer-p {
+  max-width: 264;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   color: #e7e9fc;
+}
+
+.btn-list {
+
+  margin: 0 auto;
 }
 
 .portfolio-btn {
@@ -239,6 +310,17 @@ img {
   background: #f4f4fd;
   border: 1px solid #e7e9fc;
   border-radius: 4px;
+}
+
+
+.portfolio-list {
+display: flex;
+flex-wrap: wrap;
+gap: 24px;
+}
+
+.portfolio-list-item {
+  width: calc((100% - 72px) / 3);
 }
 
 .portfolio-btn:is(:hover, :focus) {
