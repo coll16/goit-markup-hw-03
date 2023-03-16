@@ -318,8 +318,7 @@ img {
   justify-content: center;
   gap: 24px;
   padding-top: 96px;
-  padding-bottom: 72px;
-  margin: 0 auto;
+  margin-bottom: 72px;
 }
 
 .portfolio-btn {
